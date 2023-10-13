@@ -14,9 +14,9 @@ program main;
 uses zip;
 
 const
-	content: Pchar = 'test content'; 
+   content : Pchar = 'test content'; 
 var
-	z : ^zip_t;
+   z : ^zip_t;
 
 begin
    z := zip_open('/tmp/pascal.zip', 6, 'w');
